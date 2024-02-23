@@ -40,6 +40,13 @@
 4. **K-th Element of two sorted arrays**  
    Given two sorted arrays of size m and n respectively, you are tasked with finding the element that would be at the kth position of the final sorted array.
 
+1. **Allocate Minimum Number of Pages**  
+   Given an array `arr` of integer numbers, `arr[i]` represents the number of pages in the `i-th` book. There are a `m` number of students, and the task is to allocate all the books to the students. Allocate books in such a way that:
+   Each student gets at least one book.
+   Each book should be allocated to only one student.
+   Book allocation should be in a contiguous manner.
+   You have to allocate the book to `m` students such that the maximum number of pages assigned to a student is minimum. If the allocation of books is not possible, return -1.
+
 1. **Minimise Maximum Distance between Gas Stations**  
    You are given a sorted array ‘arr’ of length ‘n’, which contains positive integer positions of ‘n’ gas stations on the X-axis. You are also given an integer ‘k’. You have to place ‘k’ new gas stations on the X-axis. You can place them anywhere on the non-negative side of the X-axis, even on non-integer positions. Let ‘dist’ be the maximum value of the distance between adjacent gas stations after adding k new gas stations. Find the minimum value of ‘dist’.  
    Note: Answers within 10^-6 of the actual answer will be accepted. For example, if the actual answer is 0.65421678124, it is okay to return 0.654216. Our answer will be accepted if that is the same as the actual answer up to the 6th decimal place.
@@ -51,12 +58,7 @@
    You are given ‘N’ roses and you are also given an array ‘arr’  where ‘arr[i]’  denotes that the ‘ith’ rose will bloom on the ‘arr[i]th’ day. You can only pick already bloomed roses that are adjacent to make a bouquet. You are also told that you require exactly ‘k’ adjacent bloomed roses to make a single bouquet. Find the minimum number of days required to make at least ‘m’ bouquets each containing ‘k’ roses. Return -1 if it is not possible.
 5. **Aggressive Cows**  
    You are given an array ‘arr’ of size ‘n’ which denotes the position of stalls. You are also given an integer ‘k’ which denotes the number of aggressive cows. You are given the task of assigning stalls to ‘k’ cows such that the minimum distance between any two of them is the maximum possible. Find the maximum possible minimum distance.
-6. **Allocate Minimum Number of Pages**  
-   Given an array ‘arr of integer numbers, ‘ar[i]’ represents the number of pages in the ‘i-th’ book. There are a ‘m’ number of students, and the task is to allocate all the books to the students. Allocate books in such a way that:
-   Each student gets at least one book.
-   Each book should be allocated to only one student.
-   Book allocation should be in a contiguous manner.
-   You have to allocate the book to ‘m’ students such that the maximum number of pages assigned to a student is minimum. If the allocation of books is not possible. return -1
+
 
 
 
