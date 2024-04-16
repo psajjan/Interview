@@ -43,14 +43,18 @@
 2. **Nth Root of a Number**  
    Given two numbers N and M, find the Nth root of M. The nth root of a number M is defined as a number X when raised to the power N equals M. If the ‘nth root is not an integer, return -1.  
    [Solution](https://takeuforward.org/data-structure/nth-root-of-a-number-using-binary-search)
-3. **Median of Two Sorted Arrays of different sizes**  
+3. **Find the Smallest Divisor Given a Threshold**  
+   You are given an array of integers 'arr' and an integer i.e. a threshold value 'limit'. Your task is to find the smallest positive integer divisor, such that upon dividing all the elements of the given array by it, the sum of the division's result is less than or equal to the given threshold value.  
+   [Solution](https://takeuforward.org/arrays/find-the-smallest-divisor-given-a-threshold)
+4. **Median of Two Sorted Arrays of different sizes**  
    Given two sorted arrays arr1 and arr2 of size m and n respectively, return the median of the two sorted arrays. The median is defined as the middle value of a sorted list of numbers. In case the length of the list is even, the median is the average of the two middle elements.  
    [Solution](https://takeuforward.org/data-structure/median-of-two-sorted-arrays-of-different-sizes)
-4. **K-th Element of two sorted arrays**  
+5. **K-th Element of two sorted arrays**  
    Given two sorted arrays of size m and n respectively, you are tasked with finding the element that would be at the kth position of the final sorted array.  
    [Solution](https://takeuforward.org/data-structure/k-th-element-of-two-sorted-arrays/)
-
-
+6. **K-th Missing Positive Number**  
+   You are given a strictly increasing array `vec` and a positive integer `k`. Find the `kth` positive integer missing from `vec`.  
+   [Solution](https://takeuforward.org/arrays/kth-missing-positive-number)
 
 # Find minimum (Indirect Binary Search)
 1. **Allocate Minimum Number of Pages**  
@@ -75,10 +79,13 @@
    [Solution](https://takeuforward.org/arrays/minimise-maximum-distance-between-gas-stations)
 6. **Aggressive Cows**  
    You are given an array ‘arr’ of size ‘n’ which denotes the position of stalls. You are also given an integer ‘k’ which denotes the number of aggressive cows. You are given the task of assigning stalls to ‘k’ cows such that the minimum distance between any two of them is the maximum possible. Find the maximum possible minimum distance.  
-[Solution](https://takeuforward.org/data-structure/aggressive-cows-detailed-solution)
-7. **Koko Eating Bananas**  
+   [Solution](https://takeuforward.org/data-structure/aggressive-cows-detailed-solution)
+8. **Koko Eating Bananas**  
    A monkey is given `n` piles of bananas, whereas the `ith` pile has `a[i]` bananas. An integer `h` is also given, which denotes the time (in hours) for all the bananas to be eaten. Each hour, the monkey chooses a non-empty pile of bananas and eats `k` bananas. If the pile contains less than `k` bananas, then the monkey consumes all the bananas and won’t eat any more bananas in that hour. Find the minimum number of bananas `k` to eat per hour so that the monkey can eat all the bananas within `h` hours.  
    [Solution](https://takeuforward.org/binary-search/koko-eating-bananas)
+9. **Split Array - Largest Sum**  
+   Given an integer array `A` of size `N` and an integer `K`. Split the array `A` into `K` non-empty subarrays such that the largest sum of any subarray is minimized. Your task is to return the minimized largest sum of the split. A subarray is a contiguous part of the array.  
+   [Solution](https://takeuforward.org/arrays/split-array-largest-sum)
 
 
 
