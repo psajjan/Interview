@@ -13,4 +13,9 @@
    Every minute, if a Fresh Orange is adjacent to a Rotten Orange in any of the 4-directions ( upward, downwards, right, and left ), it becomes Rotten.  
    Return the minimum number of minutes required to turn all Fresh Oranges to Rotten Oranges. If it's not possible, return -1.  
    [Solution](https://takeuforward.org/data-structure/rotten-oranges-min-time-to-rot-all-oranges-bfs/)
-5. 
+5. **Flood Fill**  
+   An image is represented by a 2-D array of integers, each integer representing the pixel value of the image. Given a starting coordinate `(sr, sc)` representing the starting pixel (row and column) of the flood fill, and a pixel value `newColor`, `Flood Fill` the image.  
+   To perform a `Flood Fill`, start from the starting pixel, go to the pixels that are connected to it in any 4-directions and have the same colour as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same colour as the starting pixel), and so on. Replace the colour of all of the aforementioned pixels with the `newColor`.  
+   [Solution](https://takeuforward.org/graph/flood-fill-algorithm-graphs/)
+
+7. 
