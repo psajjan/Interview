@@ -27,13 +27,15 @@
 2. **Cycle Detection in Directed Graph**  
    Given a Directed Graph with `V` vertices and `E` edges, check whether it contains any cycle or not. (Use BFS)  
    [Solution](https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23)
-3. **Course Schedule**
+3. **Course Schedule**  
    There are a total of `n` tasks labeled from 0 to n-1. Some tasks may have prerequisites tasks, for example, to do task `0` you have to first finish tasks `1`, which is specified as a pair: `[0, 1]`. Given the total number of `n` tasks and a list of prerequisite pairs of size `m`.  
    1. Find the order of tasks you should pick to finish all tasks. Note: There may be multiple correct orders, you need to return one of them. If it is impossible to finish all tasks, return an empty array.
-   2. Return true if it is possible to finish all tasks else return false.  
-
+   2. Return true if it is possible to finish all tasks else return false.
    [Solution](https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/)
-4. **Alien Dictionary**
+4. **Find Eventual Safe States**  
+   A directed graph of `V` vertices and `E` edges is given in the form of an adjacency list `adj`. Each node of the graph is labeled with a distinct integer in the range `0` to `V - 1`. A node is a terminal node if there are no outgoing edges. A node is a safe node if every possible path starting from that node leads to a terminal node. You have to return an array containing all the safe nodes of the graph. The answer should be sorted in ascending order.  
+   [Solution](https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/)
+4. **Alien Dictionary**  
    Given a sorted dictionary of an alien language having `N` words which are formed using `k` starting alphabets of a standard dictionary. Find the order of characters in the alien language.  
    Note: Many orders may be possible for a particular test case, thus you may return any valid order.  
    [Solution](https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/)
