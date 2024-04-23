@@ -33,3 +33,7 @@
    2. Return true if it is possible to finish all tasks else return false.  
 
    [Solution](https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/)
+4. **Alien Dictionary**
+   Given a sorted dictionary of an alien language having `N` words which are formed using `k` starting alphabets of a standard dictionary. Find the order of characters in the alien language.  
+   Note: Many orders may be possible for a particular test case, thus you may return any valid order.  
+   [Solution](https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/)
