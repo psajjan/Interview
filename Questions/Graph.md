@@ -18,4 +18,18 @@
    To perform a `Flood Fill`, start from the starting pixel, go to the pixels that are connected to it in any 4-directions and have the same colour as the starting pixel, plus any pixels connected 4-directionally to those pixels (also with the same colour as the starting pixel), and so on. Replace the colour of all of the aforementioned pixels with the `newColor`.  
    [Solution](https://takeuforward.org/graph/flood-fill-algorithm-graphs/)
 
-7. 
+
+## Topological Sort
+
+1. **Implementation**
+   * Use DFS with stack
+   * Use BFS (Khans Algorithm)
+2. **Cycle Detection in Directed Graph**  
+   Given a Directed Graph with `V` vertices and `E` edges, check whether it contains any cycle or not. (Use BFS)  
+   [Solution](https://takeuforward.org/data-structure/detect-a-cycle-in-directed-graph-topological-sort-kahns-algorithm-g-23)
+3. **Course Schedule**
+   There are a total of `n` tasks labeled from 0 to n-1. Some tasks may have prerequisites tasks, for example, to do task `0` you have to first finish tasks `1`, which is specified as a pair: `[0, 1]`. Given the total number of `n` tasks and a list of prerequisite pairs of size `m`.  
+   1. Find the order of tasks you should pick to finish all tasks. Note: There may be multiple correct orders, you need to return one of them. If it is impossible to finish all tasks, return an empty array.
+   2. Return true if it is possible to finish all tasks else return false.  
+
+   [Solution](https://takeuforward.org/data-structure/course-schedule-i-and-ii-pre-requisite-tasks-topological-sort-g-24/)
