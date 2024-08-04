@@ -46,9 +46,12 @@
    Given an Undirected Graph having unit weights, find the shortest path from the source node to all other nodes. If a vertex is unreachable from the source node, then return -1 for that vertex.  
    [Solution](https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/)
    
-3. **Shortest Path in Directed Graph with Unit edges**  
+2. **Shortest Path in Directed Graph with Unit edges**  
    Given an Directed Graph having unit weights, find the shortest path from the source node to all other nodes. If a vertex is unreachable from the source node, then return -1 for that vertex.
    Solution: Same as in the case of undirected graph
+
+3. **Shortest Path in Directed Acyclic Graph Topological Sort**  
+   Given a DAG, find the shortest path from the source to all other nodes in this DAG. You will be given the weighted edges of the graph.
 
 5. **Cheapest Flight With Atmost K Stops**
    There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
