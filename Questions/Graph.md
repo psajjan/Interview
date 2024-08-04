@@ -47,15 +47,15 @@
    _Tip_: You need not push distance into queue, it is enough to just push the node index.  
    [Solution](https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/)
    
-3. **Shortest Path in Directed Graph with Unit edges**  
+2. **Shortest Path in Directed Graph with Unit edges**  
    Given an Directed Graph having unit weights, find the shortest path from the source node to all other nodes. If a vertex is unreachable from the source node, then return -1 for that vertex.
    Solution: Same as in the case of undirected graph
 
-4. **Shortest Path in Directed Acyclic Graph Topological Sort**  
+3. **Shortest Path in Directed Acyclic Graph Topological Sort**  
    Given a DAG, find the shortest path from the source to all other nodes in this DAG. You will be given the weighted edges of the graph.  
    [Solution](https://takeuforward.org/data-structure/shortest-path-in-directed-acyclic-graph-topological-sort-g-27/)
 
-5. **Shortest Distance in a Binary Maze**
+4. **Shortest Distance in a Binary Maze**
    Given an `n * m` matrix where each element can either be 0 or 1. You need to find the shortest distance between a given source cell to a destination cell.
    The path can only be created out of a cell if its value is 1. If the path is not possible between the source cell and the destination cell, then return -1.  
    Note: You can move into an adjacent cell if that adjacent cell is filled with element 1. Two cells are adjacent if they share a side.
@@ -63,6 +63,12 @@
    _Hint_ : Similar to undirected graph with unit weights.  
    _Tip_: You need not push distance into queue, it is enough to just push the node row and col index.  
    [Solution](https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/)
+
+5. **Dijkstras Algorithm**
+   * Implement using priority queue  
+     _Tip_: Can push multiple entries for a node but use visited array to process nodes only once.  
+   * Implement using ordered set  
+     _Tip_: Update an entry in set by first erasing it. To avoid processing a node multiple times, populate the set with all nodes to begin with.
 
 7. **Cheapest Flight With Atmost K Stops**
    There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
