@@ -90,9 +90,9 @@ Return the number of ways you can arrive at your destination in the shortest amo
 [Solution](https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/)
 
 10. **Cheapest Flight With Atmost K Stops**
-   There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
-   * Solve it using BFS with normal queue [Solution](https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/)
-   * Solve it using Dijkstras Algorithm with priority queue
-     * Option 1: Always update `dist` and `stops` array [Solution](https://pastebin.com/5cEzXnPJ) [YouTube](https://www.youtube.com/watch?v=vWgoPTvQ3Rw)
-     * Option 2: Update `dist` and `stops` array only when distance reduces
+    There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
+    * Solve it using BFS with normal queue [Solution](https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/)
+    * Solve it using Dijkstras Algorithm with priority queue
+      * Option 1: Always update `dist` and `stops` array [Solution](https://pastebin.com/5cEzXnPJ) [YouTube](https://www.youtube.com/watch?v=vWgoPTvQ3Rw)
+      * Option 2: Update `dist` and `stops` array only when distance reduces
 
