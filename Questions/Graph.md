@@ -64,11 +64,14 @@
    _Tip_: You need not push distance into queue, it is enough to just push the node row and col index.  
    [Solution](https://takeuforward.org/data-structure/g-36-shortest-distance-in-a-binary-maze/)
 
-5. **Dijkstras Algorithm**
+5. **Dijkstras Algorithm**  
+   Implementation
    * Implement using priority queue  
      _Tip_: Can push multiple entries for a node but use visited array to process nodes only once.  
+     [Solution](https://takeuforward.org/data-structure/dijkstras-algorithm-using-priority-queue-g-32/)
    * Implement using ordered set  
      _Tip_: Update an entry in set by first erasing it. To avoid processing a node multiple times, populate the set with all nodes to begin with.
+     [Solution](https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/)
 
 7. **Cheapest Flight With Atmost K Stops**
    There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
