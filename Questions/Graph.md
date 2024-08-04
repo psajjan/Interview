@@ -73,11 +73,21 @@
      _Tip_: Update an entry in set by first erasing it. To avoid processing a node multiple times, populate the set with all nodes to begin with.
      [Solution](https://takeuforward.org/data-structure/dijkstras-algorithm-using-set-g-33/)
 
-7. **Cheapest Flight With Atmost K Stops**
+6. **Path With Minimum Effort**  
+   You are a hiker preparing for an upcoming hike. You are given heights, a 2D array of size `rows x columns`, where `heights[row][col]` represents the height of the cell (row, col). You are situated in the top-left cell, (0, 0), and you hope to travel to the bottom-right cell, (rows-1, columns-1) (i.e.,0-indexed). You can move up, down, left, or right, and you wish to find a route that requires the minimum effort.  
+A route's effort is the maximum absolute difference in heights between two consecutive cells of the route.  
+[Solution](https://takeuforward.org/data-structure/g-37-path-with-minimum-effort/)
+
+7. **Number of Ways to Arrive at Destination**
+   You are in a city that consists of n intersections numbered from `0` to `n - 1` with bi-directional roads between some intersections. The inputs are generated such that you can reach any intersection from any other intersection and that there is at most one road between any two intersections. You are given an integer `n` and a 2D integer array `roads` where `roads[i] = [ui, vi, timei]` means that there is a road between intersections `ui` and `vi` that takes `timei` minutes to travel. You want to know in how many ways you can travel from intersection `0` to intersection `n - 1` in the shortest amount of time.  
+Return the number of ways you can arrive at your destination in the shortest amount of time. Since the answer may be large, return it modulo 109 + 7.
+[Solution](https://takeuforward.org/data-structure/g-40-number-of-ways-to-arrive-at-destination/)
+
+9. **Cheapest Flight With Atmost K Stops**
    There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
    * Solve it using BFS with normal queue [Solution](https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/)
    * Solve it using Dijkstras Algorithm with priority queue
      * Option 1: Always update `dist` and `stops` array [Solution](https://pastebin.com/5cEzXnPJ) [YouTube](https://www.youtube.com/watch?v=vWgoPTvQ3Rw)
      * Option 2: Update `dist` and `stops` array only when distance reduces
 
-8. **
+10. **
