@@ -35,7 +35,18 @@
 4. **Find Eventual Safe States**  
    A directed graph of `V` vertices and `E` edges is given in the form of an adjacency list `adj`. Each node of the graph is labeled with a distinct integer in the range `0` to `V - 1`. A node is a terminal node if there are no outgoing edges. A node is a safe node if every possible path starting from that node leads to a terminal node. You have to return an array containing all the safe nodes of the graph. The answer should be sorted in ascending order.  
    [Solution](https://takeuforward.org/data-structure/find-eventual-safe-states-bfs-topological-sort-g-25/)
-4. **Alien Dictionary**  
+5. **Alien Dictionary**  
    Given a sorted dictionary of an alien language having `N` words which are formed using `k` starting alphabets of a standard dictionary. Find the order of characters in the alien language.  
    Note: Many orders may be possible for a particular test case, thus you may return any valid order.  
    [Solution](https://takeuforward.org/data-structure/alien-dictionary-topological-sort-g-26/)
+
+## Single Source Shortest Path
+
+1. **Cheapest Flight With Atmost K Stops**
+   There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
+   * Solve it using BFS with normal queue [Solution](https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/)
+   * Solve it using Dijkstras Algorithm with priority queue
+     * Option 1: Always update `dist` and `stops` array [Solution](https://pastebin.com/5cEzXnPJ) [YouTube](https://www.youtube.com/watch?v=vWgoPTvQ3Rw)
+     * Option 2: Update `dist` and `stops` array only when distance reduces
+
+3. **
