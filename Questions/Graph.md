@@ -42,11 +42,15 @@
 
 ## Single Source Shortest Path
 
-1. **Cheapest Flight With Atmost K Stops**
+1. **Shortest Path in Undirected Graph with Unit edges**
+   Given an Undirected Graph having unit weights, find the shortest path from the source node to all other nodes. If a vertex is unreachable from the source node, then return -1 for that vertex.  
+   [Solution](https://takeuforward.org/data-structure/shortest-path-in-undirected-graph-with-unit-distance-g-28/)
+   
+3. **Cheapest Flight With Atmost K Stops**
    There are `n` cities which are connected by `m` number of flights. You are given an array of flights where `flights[i] = [fromi, toi, pricei]` indicates that there is a flight from city `fromi` to the city `toi` with cost `pricei`. You have also given three integers `src`, `dst`, and `k`. You need to return the cheapest price from `src` to `dst` with at most `k` stops. If there is no such route, return -1.
    * Solve it using BFS with normal queue [Solution](https://takeuforward.org/data-structure/g-38-cheapest-flights-within-k-stops/)
    * Solve it using Dijkstras Algorithm with priority queue
      * Option 1: Always update `dist` and `stops` array [Solution](https://pastebin.com/5cEzXnPJ) [YouTube](https://www.youtube.com/watch?v=vWgoPTvQ3Rw)
      * Option 2: Update `dist` and `stops` array only when distance reduces
 
-3. **
+4. **
