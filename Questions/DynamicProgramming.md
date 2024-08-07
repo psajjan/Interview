@@ -26,3 +26,6 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 
 1. **Ninja's Training**  
    Ninja is planing this `N` days-long training schedule. Each day, he can perform any one of these three activities. (Running, Fighting Practice or Learning New Moves). Each activity has some merit points on each day. As Ninja has to improve all his skills, he can’t do the same activity in two consecutive days. Can you help Ninja find out the maximum merit points Ninja can earn? You are given a `2D` array `POINTS` of size `N*3` with the points corresponding to each day and activity. Your task is to calculate the maximum number of merit points that Ninja can earn.
+
+2. **Unique Paths in a Grid**  
+   You are present at point `A` which is the top-left cell of an `M X N` matrix, your destination is point `B`, which is the bottom-right cell of the same matrix. Your task is to find the total number of unique paths from point `A` to point `B`.In other words, you will be given the dimensions of the matrix as integers `M` and `N`, your task is to find the total number of unique paths from the cell `MATRIX[0][0]` to `MATRIX[M - 1][N - 1]`. To traverse in the matrix, you can either move Right or Down at each step. 
