@@ -36,3 +36,5 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 4. **Minimum Path Sum in Grid**  
    You are given a `N x M` grid. Each cell in the grid has some cost associated with it. Find a path from top left `(0,0)`to the bottom right `(N-1, M-1)` which minimizes the sum of the cost of all the cells along the path. You need to tell the minimum sum of that path. You can only move down or right at any point in time.
 
+5. **Triangle**  
+   You are given a triangular array/list. Your task is to return the minimum sum path to reach from the top to the bottom row. The triangle array will have `N` rows and the `ith` row, where `0 <= i < N` will have `i + 1` elements. You can move only to the adjacent number of row below each step. For example, if you are at index `j` in row `i`, then you can move to `j` or `j + 1` index in row `i + 1` in each step.
