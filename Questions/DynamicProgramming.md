@@ -29,3 +29,7 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 
 2. **Unique Paths in a Grid**  
    You are present at point `A` which is the top-left cell of an `M X N` matrix, your destination is point `B`, which is the bottom-right cell of the same matrix. Your task is to find the total number of unique paths from point `A` to point `B`.In other words, you will be given the dimensions of the matrix as integers `M` and `N`, your task is to find the total number of unique paths from the cell `MATRIX[0][0]` to `MATRIX[M - 1][N - 1]`. To traverse in the matrix, you can either move Right or Down at each step. 
+
+3. **Unique Paths in a Grid - II**  
+   Given a `N x M` maze with obstacles, count and return the number of unique paths to reach the right-bottom cell from the top-left cell. A cell in the given maze has a value `-1` if it is a blockage, else 0. From a given cell, you can either move Right or Down. Since the answer can be large, print it modulo 10^9 + 7.
+   
