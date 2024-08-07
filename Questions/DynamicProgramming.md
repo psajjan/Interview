@@ -38,3 +38,6 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 
 5. **Triangle**  
    You are given a triangular array/list. Your task is to return the minimum sum path to reach from the top to the bottom row. The triangle array will have `N` rows and the `ith` row, where `0 <= i < N` will have `i + 1` elements. You can move only to the adjacent number of row below each step. For example, if you are at index `j` in row `i`, then you can move to `j` or `j + 1` index in row `i + 1` in each step.
+
+6. **Maximum Path Sum in a Matrix**  
+   You have been given an `N x M` matrix filled with integer numbers, find the maximum sum that can be obtained from a path starting from any cell in the first row to any cell in the last row. From a cell in a row, you can move to another cell directly below that row, or diagonally below left or right.
