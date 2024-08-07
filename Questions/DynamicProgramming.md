@@ -21,3 +21,8 @@ A subsequence of an array/list is obtained by deleting some number of elements (
    You are given an array of non-negative integers `ARR` representing the amount of money of each house. Your task is to return the maximum amount of money that can be robbed.  
    _Note_:  
    It is possible to rob the same amount of money by looting two different sets of houses. Just print the maximum possible robbed amount, irrespective of sets of houses robbed.
+
+## 2D Problems
+
+1. **Ninja's Training**  
+   Ninja is planing this `N` days-long training schedule. Each day, he can perform any one of these three activities. (Running, Fighting Practice or Learning New Moves). Each activity has some merit points on each day. As Ninja has to improve all his skills, he can’t do the same activity in two consecutive days. Can you help Ninja find out the maximum merit points Ninja can earn? You are given a `2D` array `POINTS` of size `N*3` with the points corresponding to each day and activity. Your task is to calculate the maximum number of merit points that Ninja can earn.
