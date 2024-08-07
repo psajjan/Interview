@@ -32,4 +32,7 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 
 3. **Unique Paths in a Grid - II**  
    Given a `N x M` maze with obstacles, count and return the number of unique paths to reach the right-bottom cell from the top-left cell. A cell in the given maze has a value `-1` if it is a blockage, else 0. From a given cell, you can either move Right or Down. Since the answer can be large, print it modulo 10^9 + 7.
-   
+
+4. **Minimum Path Sum in Grid**  
+   You are given a `N x M` grid. Each cell in the grid has some cost associated with it. Find a path from top left `(0,0)`to the bottom right `(N-1, M-1)` which minimizes the sum of the cost of all the cells along the path. You need to tell the minimum sum of that path. You can only move down or right at any point in time.
+
