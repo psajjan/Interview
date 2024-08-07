@@ -11,7 +11,7 @@
 3. **Frog Jump with K Distance**  
    Same as problem **Frog Jump** but in this problem when the frog is on the `ith` step, it can make a jump to any of `(i+1)`, `(i+2)`, ..., `(i+K)` stair.
 
-4. **Maximum sum of non-adjacent elements**  
+4. **Maximum sum of non-adjacent elements (House Robber - I)**  
    You are given an array/list of `N` integers. You are supposed to return the maximum sum of the subsequence with the constraint that no two elements are adjacent in the given array/list.  
 _Note_:  
 A subsequence of an array/list is obtained by deleting some number of elements (can be zero) from the array/list, leaving the remaining elements in their original order.
