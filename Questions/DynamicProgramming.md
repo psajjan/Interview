@@ -55,14 +55,17 @@ A subsequence of an array/list is obtained by deleting some number of elements (
    We are given an array `ARR` with `N` positive integers. We need to find if we can partition the array into two subsets such that the sum of elements of each subset is equal to the other. If we can partition, return true else return false.   
 5. **Subset Partition With Minimum Absolute Sum Diff**  
    We are given an array `ARR` with `N` positive integers. We need to partition the array into two subsets such that the absolute difference of the sum of elements of the subsets is minimum. We need to return only the minimum absolute difference of the sum of elements of the two partitions.
-7. **Count Subset with Sum K**
+7. **Count Subset with Sum K**  
    We are given an array `ARR` with `N` positive integers and an integer `K`. We need to find the number of subsets whose sum is equal to `K`.
-9. **Count Partitions with Given Diff**
-10. **Minimum Coins**
-11. **Target Sum**
-12. **Coin Change 2**
-13. **Unbounded Kapsack**
-14. **Rod Cutting Problem**
+   1. Without zero in the array
+   2. There are zeros in the array
+9. **Count Partitions with Given Diff**  
+    We are given an array `ARR` with `N` positive integers and an integer `D`. We need to count the number of ways we can partition the given array into two subsets, `S1` and `S2` such that `S1 - S2 = D` and `S1` is always greater than or equal to `S2`.
+11. **Minimum Coins**
+12. **Target Sum**
+13. **Coin Change 2**
+14. **Unbounded Kapsack**
+15. **Rod Cutting Problem**
 
 ## DP on Strings
 
