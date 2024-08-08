@@ -51,21 +51,33 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 
 1. **Subset Sum Equal To Target**  
    We are given an array `ARR` with `N` positive integers. We need to find if there is a subset in `ARR` with a sum equal to `K`. If there is, return true else return false.
-3. **Subset Partition With Equal Sum**  
+
+2. **Subset Partition With Equal Sum**  
    We are given an array `ARR` with `N` positive integers. We need to find if we can partition the array into two subsets such that the sum of elements of each subset is equal to the other. If we can partition, return true else return false.   
-5. **Subset Partition With Minimum Absolute Sum Diff**  
+
+3. **Subset Partition With Minimum Absolute Sum Diff**  
    We are given an array `ARR` with `N` positive integers. We need to partition the array into two subsets such that the absolute difference of the sum of elements of the subsets is minimum. We need to return only the minimum absolute difference of the sum of elements of the two partitions.
-7. **Count Subset with Sum K**  
+
+4. **Count Subset with Sum K**  
    We are given an array `ARR` with `N` positive integers and an integer `K`. We need to find the number of subsets whose sum is equal to `K`.
    1. Without zero in the array
    2. There are zeros in the array
-9. **Count Partitions with Given Diff**  
+
+5. **Count Partitions with Given Diff**  
     We are given an array `ARR` with `N` positive integers and an integer `D`. We need to count the number of ways we can partition the given array into two subsets, `S1` and `S2` such that `S1 - S2 = D` and `S1` is always greater than or equal to `S2`.
-11. **Minimum Coins**
-12. **Target Sum**
-13. **Coin Change 2**
-14. **Unbounded Kapsack**
-15. **Rod Cutting Problem**
+
+6. **Target Sum using + and -**  
+    We are given an array `ARR` of size `N` and a number `Target`. Our task is to build an expression from the given array where we can place a `+` or `-` sign in front of an integer. We want to place a sign in front of every integer of the array and get our required target. We need to count the number of ways in which we can achieve our required target.
+
+7. **Minimum Coins**  
+    We are given a target sum of `X` and `N` distinct numbers denoting the coin denominations. We need to tell the minimum number of coins required to reach the target sum. We can pick a coin denomination for any number of times we want.
+
+8. **Coin Change 2 (No of ways)**  
+   We are given an array `Arr` with `N` distinct coins and a `target`. We have an infinite supply of each coin denomination. We need to find the number of ways we sum up the coin values to give us the target.
+   
+10. **Unbounded Kapsack**
+
+11. **Rod Cutting Problem**
 
 ## DP on Strings
 
