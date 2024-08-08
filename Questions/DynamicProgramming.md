@@ -52,9 +52,13 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 1. **Subset Sum Equal To Target**
 2. **Subset Partition With Equal Sum**
 3. **Subset Partition With Minimum Absolute Sum Diff**
-4. **Unbounded Kapsack**
-5. **Rod Cutting Problem**
-6. 
+4. **Count Subset with Sum K**
+5. **Count Partitions with Given Diff**
+6. **Minimum Coins**
+7. **Target Sum**
+8. **Coin Change 2**
+9. **Unbounded Kapsack**
+10. **Rod Cutting Problem**
 
 ## DP on Strings
 
