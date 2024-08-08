@@ -49,6 +49,13 @@ A subsequence of an array/list is obtained by deleting some number of elements (
 
 ## DP on Subsequences
 
+1. **Subset Sum Equal To Target**
+2. **Subset Partition With Equal Sum**
+3. **Subset Partition With Minimum Absolute Sum Diff**
+4. **Unbounded Kapsack**
+5. **Rod Cutting Problem**
+6. 
+
 ## DP on Strings
 
 ## Partition DP
